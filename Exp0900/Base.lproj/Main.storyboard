@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="ViewController" customModule="Exp0900" customModuleProvider="target" sceneMemberID="viewController">
+                    <arscnView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="BrB-h1-WRS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </arscnView>
+                    <connections>
+                        <outlet property="sceneView" destination="BrB-h1-WRS" id="5nT-qQ-ynl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ZON-4S-jEl">
+            <objects>
+                <viewController id="Z2U-MT-NFE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="f0L-c2-xIj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ElG-hK-Xxh">
+                                <rect key="frame" x="0.0" y="-5" width="375" height="677"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6cV-G7-VeX">
+                                <rect key="frame" x="162.5" y="147" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="Pdj-vp-Vqc"/>
+                                    <constraint firstAttribute="height" constant="50" id="m6B-FJ-Rdc"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6cV-G7-VeX" firstAttribute="centerY" secondItem="Y1a-b7-5mT" secondAttribute="centerY" multiplier="1:2" id="8AK-sz-wfX"/>
+                            <constraint firstItem="ElG-hK-Xxh" firstAttribute="centerX" secondItem="Y1a-b7-5mT" secondAttribute="centerX" id="Bs2-87-ETT"/>
+                            <constraint firstItem="ElG-hK-Xxh" firstAttribute="height" secondItem="f0L-c2-xIj" secondAttribute="height" constant="10" id="Oab-bm-sCQ"/>
+                            <constraint firstItem="ElG-hK-Xxh" firstAttribute="width" secondItem="f0L-c2-xIj" secondAttribute="width" id="bCO-HU-rEL"/>
+                            <constraint firstItem="6cV-G7-VeX" firstAttribute="centerX" secondItem="Y1a-b7-5mT" secondAttribute="centerX" id="pdd-dO-fCp"/>
+                            <constraint firstItem="ElG-hK-Xxh" firstAttribute="centerY" secondItem="Y1a-b7-5mT" secondAttribute="centerY" constant="-10" id="tbq-H2-KVs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Y1a-b7-5mT"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S5u-aq-WyA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-986.39999999999998" y="117.39130434782609"/>
+        </scene>
+    </scenes>
+</document>
